@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">Inleggo</string>
+    <string name="obligatorio" translatable="false">Campo obligatorio</string>
+    <string name="titulo_spnlogin" translatable="false">Proyecto</string>
+    <string name="vConexionInternet">Para acceder a la aplicación, debe contar con conexión a internet.</string>
+
+
+    <string name="prompt_tipocaptura" translatable="false">Tipo de Captura</string>
+    <string name="prompt_sede" translatable="false">Sede</string>
+    <string name="prompt_gerencia" translatable="false">Gerencia</string>
+    <string name="prompt_area" translatable="false">Area</string>
+    <string name="prompt_equipo" translatable="false">Equipo</string>
+    <string name="prompt_local" translatable="false">Local</string>
+    <string name="prompt_piso" translatable="false">Piso</string>
+    <string name="prompt_ubicacion" translatable="false">Ubicacion</string>
+    <string name="prompt_usuario" translatable="false">Usuario</string>
+    <string name="prompt_proyecto" translatable="false">Proyecto</string>
+    <string name="prompt_inventariador" translatable="false">Inventariador</string>
+
+    <string-array name="spinner_array">
+        <item>item 1</item>
+        <item>item 2</item>
+        <item>item 3</item>
+        <item>item 4</item>
+        <item>item 5</item>
+        <item>item 6</item>
+        <item>item 7</item>
+        <item>item 8</item>
+        <item>item 9</item>
+        <item>item 10</item>
+    </string-array>
+</resources>

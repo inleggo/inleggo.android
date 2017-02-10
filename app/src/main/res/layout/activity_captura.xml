@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_tipo_captura"
+                    style="@style/style_spinner_material"
+                    app:ms_arrowColor="@color/primary_text"
+                    app:ms_floatingLabelColor="@color/primary"
+                    app:ms_floatingLabelText="Tipo de captura"
+                    app:ms_baseColor="@color/primary"
+                    app:ms_thickness="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_sede"
+                    style="@style/style_spinner_material"
+                    app:ms_arrowColor="@color/primary_text"
+                    app:ms_floatingLabelColor="@color/primary"
+                    app:ms_floatingLabelText="Sede"
+                    app:ms_baseColor="@color/primary"
+                    app:ms_thickness="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_gerencia"
+                    style="@style/style_spinner_material"
+                    app:ms_arrowColor="@color/primary_text"
+                    app:ms_floatingLabelColor="@color/primary"
+                    app:ms_floatingLabelText="Gerencia"
+                    app:ms_baseColor="@color/primary"
+                    app:ms_thickness="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_area"
+                    style="@style/style_spinner_material"
+                    app:ms_arrowColor="@color/primary_text"
+                    app:ms_floatingLabelColor="@color/primary"
+                    app:ms_floatingLabelText="Area"
+                    app:ms_baseColor="@color/primary"
+                    app:ms_thickness="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_equipo"
+                    style="@style/style_spinner_material"
+                    app:ms_arrowColor="@color/primary_text"
+                    app:ms_floatingLabelColor="@color/primary"
+                    app:ms_floatingLabelText="Equipo"
+                    app:ms_baseColor="@color/primary"
+                    app:ms_thickness="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_local"
+                    style="@style/style_spinner_material"
+                    app:ms_arrowColor="@color/primary_text"
+                    app:ms_floatingLabelColor="@color/primary"
+                    app:ms_floatingLabelText="Local"
+                    app:ms_baseColor="@color/primary"
+                    app:ms_thickness="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_piso"
+                    style="@style/style_spinner_material"
+                    app:ms_arrowColor="@color/primary_text"
+                    app:ms_floatingLabelColor="@color/primary"
+                    app:ms_floatingLabelText="Piso"
+                    app:ms_baseColor="@color/primary"
+                    app:ms_thickness="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_ubicacion"
+                    style="@style/style_spinner_material"
+                    app:ms_arrowColor="@color/primary_text"
+                    app:ms_floatingLabelColor="@color/primary"
+                    app:ms_floatingLabelText="Ubicación"
+                    app:ms_baseColor="@color/primary"
+                    app:ms_thickness="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_Usuario"
+                    style="@style/style_spinner_material"
+                    app:ms_arrowColor="@color/primary_text"
+                    app:ms_floatingLabelColor="@color/primary"
+                    app:ms_floatingLabelText="Usuario"
+                    app:ms_baseColor="@color/primary"
+                    app:ms_thickness="1dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_proyecto"
+                    style="@style/style_spinner_material"
+                    app:ms_arrowColor="@color/primary_text"
+                    app:ms_floatingLabelColor="@color/primary"
+                    app:ms_floatingLabelText="Proyectp"
+                    app:ms_baseColor="@color/primary"
+                    app:ms_thickness="1dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="50px">
+                <Button
+                    android:text="Guardar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_guardar"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
